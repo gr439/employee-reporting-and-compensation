@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mindex.challenge.service.ReportingStructureServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-02-02T19:44:45" hostname="DESKTOP-G91P88A" time="0.02">
+  <properties/>
+  <testcase name="testCountDirectReportsByIteration_whenNoDirectReports" classname="com.mindex.challenge.service.ReportingStructureServiceTest" time="0.018"/>
+  <testcase name="testCountDirectReportsByIteration_whenMultipleDirectReports" classname="com.mindex.challenge.service.ReportingStructureServiceTest" time="0.0"/>
+  <testcase name="testGetReportingStructureOneDirectReport" classname="com.mindex.challenge.service.ReportingStructureServiceTest" time="0.0"/>
+  <testcase name="testCountDirectReportsByIteration_whenOneDirectReport" classname="com.mindex.challenge.service.ReportingStructureServiceTest" time="0.0"/>
+  <testcase name="testCountDirectReportsByIteration_whenOneDirectReportsAlsoReports" classname="com.mindex.challenge.service.ReportingStructureServiceTest" time="0.001"/>
+  <testcase name="testGetReportingStructureNoDirectReports" classname="com.mindex.challenge.service.ReportingStructureServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

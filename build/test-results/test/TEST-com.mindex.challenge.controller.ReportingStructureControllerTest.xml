@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mindex.challenge.controller.ReportingStructureControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-02T19:44:44" hostname="DESKTOP-G91P88A" time="0.029">
+  <properties/>
+  <testcase name="testGetReportingStructure" classname="com.mindex.challenge.controller.ReportingStructureControllerTest" time="0.029"/>
+  <system-out><![CDATA[2024-02-02 14:44:44.924  INFO 41476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-02-02 14:44:44.924  INFO 41476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-02-02 14:44:44.924  INFO 41476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /reporting/9999
+       Parameters = {}
+          Headers = []
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = com.mindex.challenge.controller.ReportingStructureController
+           Method = com.mindex.challenge.controller.ReportingStructureController#getReportingStructure(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"employee":{"employeeId":"9999","firstName":null,"lastName":null,"position":null,"department":null,"directReports":null},"numberOfReports":0}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
